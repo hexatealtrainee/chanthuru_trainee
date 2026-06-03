@@ -1,0 +1,35 @@
+
+
+1. today task	
+
+SELECT 
+DISTINCT
+WHERE
+ORDER BY​ 
+group by 
+having  
+limit  
+offset
+round 
+
+Aggregate function
+min ,max ,sum ,avg , count 
+count(*) vs count(column) 
+
+logical operators
+and,or
+
+
+2.extra 
+
+type casting
+cast 
+
+window function
+rank  ,row ,dense rank, ntile 
+preceding following 
+
+
+
+
+

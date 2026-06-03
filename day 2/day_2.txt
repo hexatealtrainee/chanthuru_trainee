@@ -1,0 +1,57 @@
+patient 
+
+patient_id int primary key,[foreign key]
+patient_name character,
+age int,
+from_Address character varying,
+phone_number longint,
+blood_group varchar,
+height int,
+weight int,
+blood_prasaer int,
+health_problem character,
+need_to_visite date,
+doctor_id varchar,[foreign key]
+doctor_name character,
+
+--------------------------------------
+
+appointment
+
+patient_id int primary key,[foreign key] 
+patient_name character,
+appoiment_date date,
+doctor_name character,
+doctor_id varchar,[foreign key]
+time_date time,
+phone_number longint,
+docter_fees int,
+
+--------------------------------------
+
+pharmacy 
+
+temp_pharmacy token,[foreign key]
+patient_id int primary key,[foreign key]
+appoiment_date date,
+doctor_name character,
+doctor_id varchar,[foreign key]
+need_to_visite date,
+tablet_name character,
+table_quantity int,
+rs_total_tablet MONEY,
+
+
+---------------------------------------------------
+
+billing tables
+
+rs_total_tablet money,[foreign key]
+doctor_free int,[foreign key]
+temp_pharmacy token,[foreign key]
+tablet_name character,[foreign key]
+table_quantity int,[foreign key]
+patient_id int primary key,[foreign key]
+appoiment_date date,
+doctor_name character,
+need_to_visite date,
