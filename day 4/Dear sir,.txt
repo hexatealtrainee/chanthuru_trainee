@@ -1,0 +1,18 @@
+Dear sir,
+I would like to share the topics I studied today in SQL.
+SQL Topics Covered:
+Window Functions:
+PERCENT_RANK()
+LEAD()
+LAG()
+FIRST_VALUE()
+LAST_VALUE()
+NTH_VALUE()
+Other SQL Concepts:
+Indexing
+Common Table Expressions (CTE)
+CASE WHEN expressions
+I reviewed the syntax, usage, and practical examples for the above topics and gained a better understanding of SQL querying and data analysis concepts.
+Thank you.
+Best Regards,
+Chanthuru S R
